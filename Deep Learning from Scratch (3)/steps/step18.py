@@ -63,7 +63,7 @@ def as_array(x):
 
 class Config:
     # 역전파 기능 활성 여부 설정 변수
-    enable_backdrop = True
+    enable_backprop = True
 
 class Function:
     def __call__(self, *inputs):        
@@ -73,7 +73,7 @@ class Function:
             ys = (ys,)
         outputs = [Variable(as_array(y)) for y in ys]
 
-        if Config.enable_backdrop:
+        if Config.enable_backprop:
             self.generation = max([x.generation for x in inputs])
             for output in outputs:
                 output.set_creator(self)
@@ -161,7 +161,7 @@ def using_config(name, value):
         setattr(Config, name, old_value)
 
 def no_grad():
-    return using_config('enable_backdrop', False)
+    return using_config('enable_backprop', False)
 
 if __name__ == '__main__':
     x0 = Variable(np.array(1.0))
@@ -174,18 +174,18 @@ if __name__ == '__main__':
     print(x0.grad, x1.grad)
 
     # 중간 계산 과정에서 메모리 유지
-    Config.enable_backdrop = True
+    Config.enable_backprop = True
     x = Variable(np.ones((100, 100, 100)))
     y = square(square(square(x)))
     y.backward()
 
     # 중간 계산의 경우 계산 완료시 메모리에서 삭제
-    Config.enable_backdrop = False
+    Config.enable_backprop = False
     x = Variable(np.ones((100, 100, 100)))
     y = square(square(square(x)))
 
     # 역전파를 False로 임시 설정하고(기울기가 필요 없는 경우) 하위 코드 실행 후 finally에서 본래 Config 값을 복원함
-    with using_config('enable_backdrop', False):
+    with using_config('enable_backprop', False):
         x = Variable(np.array(2.0))
         y = square(x)
 

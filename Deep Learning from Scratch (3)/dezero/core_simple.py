@@ -6,7 +6,7 @@ import contextlib
 # Config
 # =============================================================================
 class Config:
-    enable_backdrop = True
+    enable_backprop = True
 
 @contextlib.contextmanager
 def using_config(name, value):
@@ -18,7 +18,7 @@ def using_config(name, value):
         setattr(Config, name, old_value)
 
 def no_grad():
-    return using_config('enable_backdrop', False)
+    return using_config('enable_backprop', False)
 
 
 # =============================================================================
@@ -125,7 +125,7 @@ class Function:
             ys = (ys,)
         outputs = [Variable(as_array(y)) for y in ys]
 
-        if Config.enable_backdrop:
+        if Config.enable_backprop:
             self.generation = max([x.generation for x in inputs])
             for output in outputs:
                 output.set_creator(self)

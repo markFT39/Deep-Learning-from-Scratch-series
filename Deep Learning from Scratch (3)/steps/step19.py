@@ -89,7 +89,7 @@ def as_array(x):
 
 class Config:
     # 역전파 기능 활성 여부 설정 변수
-    enable_backdrop = True
+    enable_backprop = True
 
 class Function:
     def __call__(self, *inputs):        
@@ -99,7 +99,7 @@ class Function:
             ys = (ys,)
         outputs = [Variable(as_array(y)) for y in ys]
 
-        if Config.enable_backdrop:
+        if Config.enable_backprop:
             self.generation = max([x.generation for x in inputs])
             for output in outputs:
                 output.set_creator(self)
@@ -187,7 +187,7 @@ def using_config(name, value):
         setattr(Config, name, old_value)
 
 def no_grad():
-    return using_config('enable_backdrop', False)
+    return using_config('enable_backprop', False)
 
 if __name__ == '__main__':
     x = Variable(np.array([[1, 2, 3], [4, 5, 6]]))
