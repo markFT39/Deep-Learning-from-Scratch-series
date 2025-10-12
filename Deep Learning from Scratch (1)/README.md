@@ -18,7 +18,7 @@ This directory contains my code implementations and notes based on "Deep Learnin
 
 ---
 
-## 💡 What I Learned
+## 💡 What I Learned (highlights)
 - Implementing **basic perceptrons and logic gates** with NumPy  
 - Constructing **feedforward neural networks** step by step  
 - Understanding the math behind **forward propagation and backpropagation**  
@@ -29,7 +29,7 @@ This directory contains my code implementations and notes based on "Deep Learnin
 
 ---
 
-## 🛠 How to Run
+## 🛠 How to Run (examples)
 Clone the repo and run chapter scripts inside the Book 1 folder:
 
 ```bash
