@@ -1,4 +1,4 @@
-# Deep Learning from Scratch (1) - Practice
+# Deep Learning from Scratch (1) - Fundamentals of Neural Networks
 
 This directory contains my code implementations and notes based on **"밑바닥부터 시작하는 딥러닝 (1)"** by 사이토 고키 (Goki Saito).  
 The focus of this book is to build **fundamental deep learning models from scratch** using only NumPy, without relying on frameworks such as TensorFlow or PyTorch.
