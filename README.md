@@ -1,6 +1,6 @@
 # Deep Learning from Scratch - Practice
 
-This repository contains my code implementations and learning notes based on the **"Deep Learning from Scratch"** book series by O'Reilly Japan / 사이토 고키.  
+This repository contains my code implementations and learning notes based on the **"Deep Learning from Scratch"** book series by O'Reilly Japan / Goki Saito (사이토 고키).  
 The goal is to **implement deep learning concepts from first principles** using only NumPy and Python, without relying on high-level frameworks.
 
 📎 Related repository: [WegraLee/deep-learning-from-scratch](https://github.com/WegraLee/deep-learning-from-scratch)
@@ -22,8 +22,9 @@ The goal is to **implement deep learning concepts from first principles** using 
   Reinforcement Learning (RL) basics and implementations.  
   Code in: `Deep Learning from Scratch (3)/steps`, `dezero`, ...
 
-- **Deep Learning from Scratch (4)** *(planned)*  
-  Focus: ...
+- **Deep Learning from Scratch (4)**  
+  Reinforcement Learning (RL) fundamentals and algorithms.  
+  Code in: `Deep Learning from Scratch (4)/Ch01`, `Ch02`, ...
 
 ---
 
@@ -56,6 +57,17 @@ The goal is to **implement deep learning concepts from first principles** using 
 - Chapter 4: Building Neural Networks from Scratch
 - Chapter 5: DeZero Challenges and Practical Features
 
+### Book 4: Reinforcement Learning
+- Chapter 1: Introduction to Reinforcement Learning (agent, environment, reward, policy)  
+- Chapter 2: Multi-Armed Bandit Problems and Exploration Strategies  
+- Chapter 3: Markov Decision Processes (MDP) and Bellman Equations  
+- Chapter 4: Dynamic Programming (Policy and Value Iteration)  
+- Chapter 5: Monte Carlo Methods  
+- Chapter 6: Temporal-Difference (TD) Methods (SARSA, Q-learning, etc.)  
+- Chapter 7: Neural Networks and Q-learning (function approximation)  
+- Chapter 8: Deep Q-Network (DQN) — Implementation and Extensions (target networks, experience replay)  
+- Chapter 9: Policy Gradient Methods (REINFORCE, Actor-Critic, etc.)  
+- Chapter 10: One Step Further — Advanced Topics, Case Studies, and Limitations  
 
 *(Chapters may be updated as I progress through the book.)*
 
@@ -72,11 +84,18 @@ The goal is to **implement deep learning concepts from first principles** using 
   - Implementing recurrent neural networks for sequence data  
   - Understanding the foundations of NLP models
 
-- **From Book 3** *(in progress)*:  
-  - Understanding reinforcement learning framework (agent, environment, reward, policy)  
-  - Implementing bandit problems and policy evaluation methods  
-  - Exploring Monte Carlo and temporal-difference methods  
-  - Building simple DQN (Deep Q-Network) agents
+- **From Book 3**:  
+  - Implementing **automatic differentiation** and higher-order gradients  
+  - Building the **DeZero** deep learning framework  
+  - Extending to CNNs/RNNs and GPU acceleration  
+ 
+- **From Book 4** *(in progress)*:  
+  - Understanding the foundation of reinforcement learning: agent, environment, reward, and policy  
+  - Implementing bandit problems, MDPs, and dynamic programming methods  
+  - Applying Monte Carlo and TD learning algorithms for value estimation  
+  - Building **Q-learning** and **Deep Q-Network (DQN)** agents from scratch  
+  - Exploring **policy gradient** and **Actor-Critic** methods  
+  - Investigating advanced RL concepts and real-world applications beyond DQN  
 
 ---
 
@@ -99,3 +118,7 @@ python word2vec_basic.py
 # Example (Book 3, Chapter 1)
 cd "Deep Learning from Scratch (3)/steps"
 python step01.py
+
+# Example (Book 4)
+cd "Deep Learning from Scratch (4)/Ch01"
+python avg.py
