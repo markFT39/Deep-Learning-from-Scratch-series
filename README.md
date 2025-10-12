@@ -58,16 +58,16 @@ The goal is to **implement deep learning concepts from first principles** using 
 - Chapter 5: DeZero Challenges and Practical Features
 
 ### Book 4: Reinforcement Learning
-- Chapter 1: Introduction to Reinforcement Learning (agent, environment, reward, policy)  
-- Chapter 2: Multi-Armed Bandit Problems and Exploration Strategies  
-- Chapter 3: Markov Decision Processes (MDP) and Bellman Equations  
-- Chapter 4: Dynamic Programming (Policy and Value Iteration)  
+- Chapter 1: Bandit Problems  
+- Chapter 2: Markov Decision Processes (MDP)  
+- Chapter 3: Bellman Equations  
+- Chapter 4: Dynamic Programming (policy evaluation, policy/ value iteration)  
 - Chapter 5: Monte Carlo Methods  
 - Chapter 6: Temporal-Difference (TD) Methods (SARSA, Q-learning, etc.)  
-- Chapter 7: Neural Networks and Q-learning (function approximation)  
-- Chapter 8: Deep Q-Network (DQN) — Implementation and Extensions (target networks, experience replay)  
+- Chapter 7: Neural Networks and Q-learning  
+- Chapter 8: Deep Q-Network (DQN) — implementation, core techniques, extensions  
 - Chapter 9: Policy Gradient Methods (REINFORCE, Actor-Critic, etc.)  
-- Chapter 10: One Step Further — Advanced Topics, Case Studies, and Limitations  
+- Chapter 10: One Step Further — DQN extensions (Rainbow, Noisy), case studies, challenges & possibilities 
 
 *(Chapters may be updated as I progress through the book.)*
 
@@ -90,12 +90,9 @@ The goal is to **implement deep learning concepts from first principles** using 
   - Extending to CNNs/RNNs and GPU acceleration  
  
 - **From Book 4** *(in progress)*:  
-  - Understanding the foundation of reinforcement learning: agent, environment, reward, and policy  
-  - Implementing bandit problems, MDPs, and dynamic programming methods  
-  - Applying Monte Carlo and TD learning algorithms for value estimation  
-  - Building **Q-learning** and **Deep Q-Network (DQN)** agents from scratch  
-  - Exploring **policy gradient** and **Actor-Critic** methods  
-  - Investigating advanced RL concepts and real-world applications beyond DQN  
+  - Understanding the RL framework: agent, environment, reward, policy  
+  - Implementing bandit problems, MDPs, and Q-learning / DQN agents  
+  - Exploring Monte Carlo, TD, and policy gradient methods  
 
 ---
 
