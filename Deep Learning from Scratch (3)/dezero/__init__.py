@@ -33,11 +33,11 @@ else:
     import dezero.dataloaders
     import dezero.optimizers
     import dezero.functions
-    # import dezero.functions_conv
+    import dezero.functions_conv
     import dezero.layers
     import dezero.utils
     import dezero.cuda
     import dezero.transforms
 
 setup_variable()
-__version__ = '0.0.1'
+__version__ = '1.0.0'
