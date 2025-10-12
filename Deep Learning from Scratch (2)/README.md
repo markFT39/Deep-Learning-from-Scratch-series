@@ -1,4 +1,4 @@
-# Deep Learning from Scratch (2) - Practice
+# Deep Learning from Scratch (2) - Practice with RNNs and NLP
 
 This directory contains my code implementations and notes based on **"Deep Learning from Scratch 2"** by Goki Saito.  
 The focus of this book is on **recurrent neural networks (RNNs) and natural language processing (NLP)**, and all implementations are done from scratch with NumPy and Python.
