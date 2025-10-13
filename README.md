@@ -1,4 +1,4 @@
-# Deep Learning from Scratch - Practice
+# Deep Learning from Scratch Series
 
 This repository contains my code implementations and learning notes based on the **"Deep Learning from Scratch"** book series by O'Reilly Japan / Goki Saito (사이토 고키).  
 The goal is to **implement deep learning concepts from first principles** using only NumPy and Python, without relying on high-level frameworks.
