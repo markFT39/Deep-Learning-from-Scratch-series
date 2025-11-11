@@ -125,15 +125,15 @@ Clone the repository and run individual chapter scripts:
 git clone https://github.com/markFT39/Deep-Learning-from-Scratch-series.git
 cd "Deep-Learning-from-Scratch-series"
 
-# Example (Book 1, Chapter 1)
+# Example (Book 1)
 cd "Deep Learning from Scratch (1)/Ch01"
 python img_show.py
 
-# Example (Book 2, Chapter 1)
+# Example (Book 2)
 cd "Deep Learning from Scratch (2)/Ch01"
 python word2vec_basic.py
 
-# Example (Book 3, Chapter 1)
+# Example (Book 3)
 cd "Deep Learning from Scratch (3)/steps"
 python step01.py
 
@@ -141,6 +141,6 @@ python step01.py
 cd "Deep Learning from Scratch (4)/Ch01"
 python avg.py
 
-# Example (Book 5, Chapter 1)
+# Example (Book 5)
 cd "Deep Learning from Scratch (5)/step01"
 python norm_dist.py
