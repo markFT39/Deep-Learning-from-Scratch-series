@@ -26,6 +26,10 @@ The goal is to **implement deep learning concepts from first principles** using 
   Reinforcement Learning (RL) fundamentals and algorithms.  
   Code in: `Deep Learning from Scratch (4)/Ch01`, `Ch02`, ...
 
+- **Deep Learning from Scratch (5)**  
+  Generative Models and advanced architectures.  
+  Code in: `Deep Learning from Scratch (5)/step01`, `step02`, …
+
 ---
 
 ## 📁 Contents
@@ -69,6 +73,18 @@ The goal is to **implement deep learning concepts from first principles** using 
 - Chapter 9: Policy Gradient Methods (REINFORCE, Actor-Critic, etc.)  
 - Chapter 10: One Step Further — DQN extensions (Rainbow, Noisy), case studies, challenges & possibilities 
 
+### Book 5: Generative Models
+- Chapter 1: Normal Distributions  
+- Chapter 2: Maximum Likelihood Estimation (MLE)  
+- Chapter 3: Multivariate Normal Distributions  
+- Chapter 4: Mixture of Gaussians (GMM)  
+- Chapter 5: Expectation‑Maximization (EM) Algorithm  
+- Chapter 6: Neural Networks for Generative Models  
+- Chapter 7: Variational Autoencoders (VAE)  
+- Chapter 8: Diffusion Models — Theory  
+- Chapter 9: Diffusion Models — Implementation  
+- Chapter 10: Diffusion Models — Applications  
+
 *(Chapters may be updated as I progress through the book.)*
 
 ---
@@ -89,10 +105,15 @@ The goal is to **implement deep learning concepts from first principles** using 
   - Building the **DeZero** deep learning framework  
   - Extending to CNNs/RNNs and GPU acceleration  
  
-- **From Book 4** *(in progress)*:  
+- **From Book 4**:  
   - Understanding the RL framework: agent, environment, reward, policy  
   - Implementing bandit problems, MDPs, and Q-learning / DQN agents  
   - Exploring Monte Carlo, TD, and policy gradient methods  
+
+- **From Book 5** *(in progress)*:  
+  - Modeling generative distributions from normal → mixture → latent variable models  
+  - Building VAEs and stepping into diffusion models up to image generation  
+  - Implementing generative architectures and understanding real‑world applications
 
 ---
 
@@ -119,3 +140,7 @@ python step01.py
 # Example (Book 4)
 cd "Deep Learning from Scratch (4)/Ch01"
 python avg.py
+
+# Example (Book 5, Chapter 1)
+cd "Deep Learning from Scratch (5)/step01"
+python norm_dist.py
