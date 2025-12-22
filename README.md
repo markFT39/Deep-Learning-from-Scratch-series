@@ -139,7 +139,7 @@ python step01.py
 
 # Example (Book 4)
 cd "Deep Learning from Scratch (4)/Ch01"
-python avg.py
+python bandit.py
 
 # Example (Book 5)
 cd "Deep Learning from Scratch (5)/step01"
