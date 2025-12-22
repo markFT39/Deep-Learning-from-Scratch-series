@@ -27,7 +27,7 @@ The goal is to **implement deep learning concepts from first principles** using 
   Code in: `Deep Learning from Scratch (4)/Ch01`, `Ch02`, ...
 
 - **Deep Learning from Scratch (5)**  
-  Generative Models and advanced architectures.  
+  Generative models (VAE, diffusion) and modern generative architectures.
   Code in: `Deep Learning from Scratch (5)/step01`, `step02`, …
 
 ---
