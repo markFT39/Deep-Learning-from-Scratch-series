@@ -3,9 +3,29 @@
 This repository contains my code implementations and learning notes based on the **"Deep Learning from Scratch"** book series by O'Reilly Japan / Goki Saito (사이토 고키).  
 The goal is to **implement deep learning concepts from first principles** using only NumPy and Python, without relying on high-level frameworks.
 
-📎 Related repository: [WegraLee/deep-learning-from-scratch](https://github.com/WegraLee/deep-learning-from-scratch)
+---
 
-📎 Related repository: [markFT39/Deep-Learning-from-Scratch-series](https://github.com/markFT39/Deep-Learning-from-Scratch-series)
+## 🙏 Acknowledgements
+
+This repository is based on and inspired by the **"Deep Learning from Scratch"** book series written by **Goki Saito** and published by **O’Reilly Japan**.  
+All theoretical foundations, problem structures, and learning flows originate from the original work.
+
+The following repositories were referenced and are deeply appreciated:
+
+- **Official original repository (Japanese)**  
+  https://github.com/oreilly-japan/deep-learning-from-scratch  
+  - Official source code and materials provided by O’Reilly Japan for the original book series.
+
+- **Korean translation & community repository**  
+  https://github.com/WegraLee/deep-learning-from-scratch  
+  - Widely used Korean translation and community-maintained implementation, helpful for understanding and cross-referencing concepts.
+
+- **This repository (personal implementation & notes)**  
+  https://github.com/markFT39/Deep-Learning-from-Scratch-series  
+  - Personal implementations, experiments, and learning notes created for educational and self-study purposes.
+
+This project is intended **strictly for educational purposes**.  
+All rights to the original content belong to the author and publisher.
 
 ---
 
@@ -26,7 +46,7 @@ The goal is to **implement deep learning concepts from first principles** using 
   Reinforcement Learning (RL) fundamentals and algorithms.  
   Code in: `Deep Learning from Scratch (4)/Ch01`, `Ch02`, ...
 
-- **Deep Learning from Scratch (5)**  
+- **Deep Learning from Scratch (5)**
   Generative models (VAE, diffusion) and modern generative architectures.
   Code in: `Deep Learning from Scratch (5)/step01`, `step02`, …
 
@@ -40,7 +60,7 @@ The goal is to **implement deep learning concepts from first principles** using 
 - Chapter 3: Neural Networks  
 - Chapter 4: Neural Network Training (loss functions, gradient methods)  
 - Chapter 5: Backpropagation  
-- Chapter 6: Training Techniques (weight initialization, overfitting prevention, hyperparameters)   
+- Chapter 6: Training Techniques (weight initialization, overfitting prevention, hyperparameters)
 - Chapter 7: Convolutional Neural Networks (CNNs)  
 - Chapter 8: Deep Learning Applications (image recognition, MNIST, etc.)
 
@@ -65,13 +85,13 @@ The goal is to **implement deep learning concepts from first principles** using 
 - Chapter 1: Bandit Problems  
 - Chapter 2: Markov Decision Processes (MDP)  
 - Chapter 3: Bellman Equations  
-- Chapter 4: Dynamic Programming (policy evaluation, policy/ value iteration)  
+- Chapter 4: Dynamic Programming (policy evaluation, policy/value iteration)  
 - Chapter 5: Monte Carlo Methods  
 - Chapter 6: Temporal-Difference (TD) Methods (SARSA, Q-learning, etc.)  
 - Chapter 7: Neural Networks and Q-learning  
-- Chapter 8: Deep Q-Network (DQN) — implementation, core techniques, extensions  
+- Chapter 8: Deep Q-Network (DQN) - implementation, core techniques, extensions  
 - Chapter 9: Policy Gradient Methods (REINFORCE, Actor-Critic, etc.)  
-- Chapter 10: One Step Further — DQN extensions (Rainbow, Noisy), case studies, challenges & possibilities 
+- Chapter 10: One Step Further - DQN extensions (Rainbow, Noisy), case studies, challenges & possibilities 
 
 ### Book 5: Generative Models
 - Chapter 1: Normal Distributions  
@@ -81,9 +101,9 @@ The goal is to **implement deep learning concepts from first principles** using 
 - Chapter 5: Expectation‑Maximization (EM) Algorithm  
 - Chapter 6: Neural Networks for Generative Models  
 - Chapter 7: Variational Autoencoders (VAE)  
-- Chapter 8: Diffusion Models — Theory  
-- Chapter 9: Diffusion Models — Implementation  
-- Chapter 10: Diffusion Models — Applications  
+- Chapter 8: Diffusion Models - Theory  
+- Chapter 9: Diffusion Models - Implementation  
+- Chapter 10: Diffusion Models - Applications  
 
 *(Chapters may be updated as I progress through the book.)*
 
