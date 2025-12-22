@@ -16,9 +16,9 @@ All implementations use only NumPy and Python (no high-level DL framework) to ex
 - **Chapter 5**: Monte Carlo Methods  
 - **Chapter 6**: Temporal-Difference (TD) Methods (SARSA, Q-learning, etc.)  
 - **Chapter 7**: Neural Networks and Q-learning  
-- **Chapter 8**: Deep Q-Network (DQN) — implementation, core techniques, extensions  
+- **Chapter 8**: Deep Q-Network (DQN) - implementation, core techniques, extensions  
 - **Chapter 9**: Policy Gradient Methods (REINFORCE, Actor-Critic, etc.)  
-- **Chapter 10**: One Step Further — DQN extensions (Rainbow, Noisy), case studies, challenges & possibilities  
+- **Chapter 10**: One Step Further - DQN extensions (Rainbow, Noisy), case studies, challenges & possibilities  
 
 *(Chapters may be updated as I progress through the book.)*
 
@@ -31,7 +31,7 @@ All implementations use only NumPy and Python (no high-level DL framework) to ex
 - Applying dynamic programming: policy evaluation, policy iteration, value iteration.  
 - Learning and comparing Monte Carlo methods and Temporal-Difference (TD) methods.  
 - Integrating neural networks into Q-learning for larger state/action spaces.  
-- Building a Deep Q-Network (DQN) from scratch — experience replay, target network, extensions.  
+- Building a Deep Q-Network (DQN) from scratch - experience replay, target network, extensions.  
 - Exploring policy gradient and Actor-Critic methods for policy optimization.  
 - Reviewing advanced RL topics: Double DQN, Dueling Networks, Prioritized Replay, continuous control scenarios.  
 
@@ -55,3 +55,4 @@ python dp.py
 # Example: Chapter 8
 cd ./Ch08
 python dqn.py
+
