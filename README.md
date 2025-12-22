@@ -111,29 +111,29 @@ All rights to the original content belong to the author and publisher.
 
 ## 💡 What I Learned
 - **From Book 1**:  
-  - Implementing perceptrons and feedforward neural networks with NumPy  
-  - Forward and backward propagation from scratch  
-  - Gradient descent, backpropagation, and CNN basics  
+  - Implementing **perceptrons and feedforward neural networks** with NumPy  
+  - Understanding **forward and backward propagation** from scratch  
+  - Gradient descent, backpropagation, and **CNN basics**  
 
 - **From Book 2**:  
-  - Building word embeddings and word2vec  
-  - Implementing recurrent neural networks for sequence data  
-  - Understanding the foundations of NLP models
+  - Building **word embeddings (word2vec)** for NLP tasks  
+  - Implementing **recurrent neural networks (RNNs)** for sequence data  
+  - Understanding the foundations of **NLP models and attention**
 
 - **From Book 3**:  
   - Implementing **automatic differentiation** and higher-order gradients  
   - Building the **DeZero** deep learning framework  
-  - Extending to CNNs/RNNs and GPU acceleration  
+  - Extending to **CNNs/RNNs and GPU acceleration**  
  
 - **From Book 4**:  
-  - Understanding the RL framework: agent, environment, reward, policy  
-  - Implementing bandit problems, MDPs, and Q-learning / DQN agents  
-  - Exploring Monte Carlo, TD, and policy gradient methods  
+  - Understanding the **reinforcement learning framework** (agent, environment, reward, policy)  
+  - Implementing **MDPs, Q-learning, and DQN agents**  
+  - Exploring **Monte Carlo, TD, and policy gradient methods**  
 
-- **From Book 5**:  
-  - Modeling generative distributions from normal → mixture → latent variable models  
-  - Building VAEs and stepping into diffusion models up to image generation  
-  - Implementing generative architectures and understanding real‑world applications
+- **From Book 5**:  
+  - Modeling **generative distributions** (normal → mixture → latent variable models)  
+  - Building **Variational Autoencoders (VAEs)** and diffusion-based generators  
+  - Implementing **diffusion models** for data and image generation
 
 ---
 
