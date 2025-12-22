@@ -17,9 +17,9 @@ All implementations are built step by step using **NumPy and Python**, emphasizi
 - **Chapter 5**: Expectation-Maximization (EM) Algorithm  
 - **Chapter 6**: Neural Networks for Generative Models  
 - **Chapter 7**: Variational Autoencoders (VAE)  
-- **Chapter 8**: Diffusion Models — Theory  
-- **Chapter 9**: Diffusion Models — Implementation  
-- **Chapter 10**: Diffusion Models — Applications  
+- **Chapter 8**: Diffusion Models - Theory  
+- **Chapter 9**: Diffusion Models - Implementation  
+- **Chapter 10**: Diffusion Models - Applications  
 
 *(Chapters may be updated as I progress through the book.)*
 
@@ -61,3 +61,4 @@ python vae.py
 # Example: Chapter 9
 cd ./step09
 python diffusion_model.py
+
