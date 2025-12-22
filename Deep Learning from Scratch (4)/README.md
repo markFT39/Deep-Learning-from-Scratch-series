@@ -25,15 +25,15 @@ All implementations use only NumPy and Python (no high-level DL framework) to ex
 ---
 
 ## 💡 What I Learned (highlights)
-- Understanding the RL framework: agent ↔ environment ↔ reward ↔ policy.  
-- Implementing bandit problems and basic exploration strategies.  
-- Formalizing Markov decision processes (MDP) and deriving Bellman equations.  
-- Applying dynamic programming: policy evaluation, policy iteration, value iteration.  
-- Learning and comparing Monte Carlo methods and Temporal-Difference (TD) methods.  
-- Integrating neural networks into Q-learning for larger state/action spaces.  
-- Building a Deep Q-Network (DQN) from scratch - experience replay, target network, extensions.  
-- Exploring policy gradient and Actor-Critic methods for policy optimization.  
-- Reviewing advanced RL topics: Double DQN, Dueling Networks, Prioritized Replay, continuous control scenarios.  
+- Understanding the **reinforcement learning framework**: agent ↔ environment ↔ reward ↔ policy.  
+- Implementing **bandit problems** and basic **exploration strategies**.  
+- Formalizing **Markov Decision Processes (MDP)** and deriving **Bellman equations**.  
+- Applying **dynamic programming**: policy evaluation, policy iteration, value iteration.  
+- Learning and comparing **Monte Carlo methods** and **Temporal-Difference (TD) methods**.  
+- Integrating **neural networks** into **Q-learning** for larger state/action spaces.  
+- Building a **Deep Q-Network (DQN)** from scratch — **experience replay**, **target networks**, and extensions.  
+- Exploring **policy gradient** and **Actor-Critic methods** for policy optimization.  
+- Reviewing advanced RL topics: **Double DQN**, **Dueling Networks**, **Prioritized Replay**, and **continuous control** scenarios.  
 
 ---
 
@@ -55,4 +55,5 @@ python dp.py
 # Example: Chapter 8
 cd ./Ch08
 python dqn.py
+
 
