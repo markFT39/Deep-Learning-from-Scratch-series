@@ -110,7 +110,7 @@ The goal is to **implement deep learning concepts from first principles** using 
   - Implementing bandit problems, MDPs, and Q-learning / DQN agents  
   - Exploring Monte Carlo, TD, and policy gradient methods  
 
-- **From Book 5** *(in progress)*:  
+- **From Book 5**:  
   - Modeling generative distributions from normal → mixture → latent variable models  
   - Building VAEs and stepping into diffusion models up to image generation  
   - Implementing generative architectures and understanding real‑world applications
