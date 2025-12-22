@@ -19,7 +19,7 @@ The goal is to **implement deep learning concepts from first principles** using 
   Code in: `Deep Learning from Scratch (2)/Ch01`, `Ch02`, ...
 
 - **Deep Learning from Scratch (3)**  
-  Reinforcement Learning (RL) basics and implementations.  
+  DeZero and advanced deep learning (automatic differentiation, neural networks).  
   Code in: `Deep Learning from Scratch (3)/steps`, `dezero`, ...
 
 - **Deep Learning from Scratch (4)**  
