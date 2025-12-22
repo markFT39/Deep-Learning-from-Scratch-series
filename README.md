@@ -47,7 +47,7 @@ All rights to the original content belong to the author and publisher.
   Code in: `Deep Learning from Scratch (4)/Ch01`, `Ch02`, ...
 
 - **Deep Learning from Scratch (5)**
-  Generative models (VAE, diffusion) and modern generative architectures.
+  Generative models (VAE, diffusion) and modern generative architectures.  
   Code in: `Deep Learning from Scratch (5)/step01`, `step02`, …
 
 ---
